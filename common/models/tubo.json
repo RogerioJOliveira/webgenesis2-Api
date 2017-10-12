@@ -1,0 +1,131 @@
+{
+  "name": "tubo",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "mysql": {
+    "schema": "webgenesis2",
+    "table": "tabTubo"
+  },
+  "properties": {
+    "idtube": {
+      "type": "Number",
+      "id": true,
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "idTube",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "desctuoco": {
+      "type": "String",
+      "required": false,
+      "length": 60,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "descTuoco",
+        "dataType": "varchar",
+        "dataLength": 60,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "comptubo": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 7,
+      "scale": 6,
+      "mysql": {
+        "columnName": "compTubo",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 7,
+        "dataScale": 6,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "worklenth": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 7,
+      "scale": 6,
+      "mysql": {
+        "columnName": "workLenth",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 7,
+        "dataScale": 6,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "diametrotrabalho": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 7,
+      "scale": 6,
+      "mysql": {
+        "columnName": "diametroTrabalho",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 7,
+        "dataScale": 6,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "angulo": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 7,
+      "scale": 6,
+      "mysql": {
+        "columnName": "angulo",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 7,
+        "dataScale": 6,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "diametroinnertube": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 7,
+      "scale": 6,
+      "mysql": {
+        "columnName": "diametroInnertube",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 7,
+        "dataScale": 6,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

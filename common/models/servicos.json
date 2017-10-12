@@ -1,0 +1,131 @@
+{
+  "name": "servicos",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "mysql": {
+    "schema": "webgenesis2",
+    "table": "tbservicos"
+  },
+  "properties": {
+    "tbcategoriaservicoIdcategoriaservico": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "tbCategoriaServico_idCategoriaServico",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      },
+      "_selectable": false
+    },
+    "tbsubcategoriaprodutoIdsubcategoriaproduto": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "tbSubCategoriaProduto_idSubCategoriaProduto",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "tbuntmedidaIduntmedida": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "tbUntMedida_idUntMedida",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "preco": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 4,
+      "mysql": {
+        "columnName": "Preco",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 4,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "precoCusto": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 4,
+      "mysql": {
+        "columnName": "Preco_Custo",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 4,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "qtd": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 4,
+      "mysql": {
+        "columnName": "Qtd",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 4,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "idproduto": {
+      "type": "Number",
+      "id": true,
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "idProduto",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

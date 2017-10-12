@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+    "user": {
+    "dataSource": "db",
+    "public": true
+  },
+  "accessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "espacador": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "lente": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "tubo": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "categoriaProduto": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "conjuntoLentes": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "especialidade": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "grupo": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "entidade": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "grupoUsuario": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "marca": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "movimento": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "movimentoCompra": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "orcamentoOticas": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "orcamentoEquipamento": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "orcamento": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "oticaOrcamento": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "oticaOrcamentoPecas": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "pedido": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  
+  "produto": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "pedidoCompra": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "servicos": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "subCategoriaProduto": {
+    "dataSource": "myDB",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "subProduto": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "sistemas": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "tipoEquipamento": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "tipoPessoa": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "tipoEntidade": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "undMedida": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "tipoProduto": {
+    "dataSource": "myDB",
+    "public": true
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "name": "espacador",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "mysql": {
+    "schema": "webgenesis2",
+    "table": "tabEspacador"
+  },
+  "properties": {
+    "idespacador": {
+      "type": "Number",
+      "id": true,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "idEspacador",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "tbprodutoIdproduto": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "tbproduto_idProduto",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "nome": {
+      "type": "String",
+      "required": false,
+      "length": 45,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Nome",
+        "dataType": "varchar",
+        "dataLength": 45,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "diamettro": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 7,
+      "scale": 6,
+      "mysql": {
+        "columnName": "diamettro",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 7,
+        "dataScale": 6,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "comprimento": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 7,
+      "scale": 6,
+      "mysql": {
+        "columnName": "comprimento",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 7,
+        "dataScale": 6,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "raio": {
+      "type": "String",
+      "required": false,
+      "length": null,
+      "precision": 7,
+      "scale": 6,
+      "mysql": {
+        "columnName": "raio",
+        "dataType": "decimal",
+        "dataLength": null,
+        "dataPrecision": 7,
+        "dataScale": 6,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "tipoespacador": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "tipoEspacador",
+        "dataType": "varchar",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "picture": {
+      "type": "String",
+      "required": false,
+      "length": 55,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "picture",
+        "dataType": "varchar",
+        "dataLength": 55,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
