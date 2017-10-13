@@ -43,8 +43,6 @@ module.exports = function (entidade) {
         ctx.Model.pluralModelName,
         ctx.where);
     }
-    console.log('now(): ', now());
-    console.log('now.toJSON(): ', now.toJSON());
     next();
   });
 
