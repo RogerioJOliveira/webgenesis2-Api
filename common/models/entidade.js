@@ -25,7 +25,7 @@ module.exports = function(User) {
     });
   });
 
-
+*/
   entidade.observer('before save', function(ctx, next) {
     
     // ctx.instance.dtcadastro = now();
@@ -33,9 +33,9 @@ module.exports = function(User) {
     console.log('now(): ', now());
     console.log('now.toJSON(): ', now.toJSON());
     
-    next;
+    next();
   });
-*/
+
 
   entidade.beforeRemote('**', function(ctx, unused, next) {
     if (ctx.args.filter === undefined) ctx.args.filter = {};
