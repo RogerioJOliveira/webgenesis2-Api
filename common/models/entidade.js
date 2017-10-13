@@ -28,7 +28,7 @@ module.exports = function(User) {
 */
   entidade.observer('before save', function(ctx, next) {
     
-    ctx.instance.dtcadastro = now.toJSON();
+    ctx.instance.dtcadastro = now();
     
     next;
   });
